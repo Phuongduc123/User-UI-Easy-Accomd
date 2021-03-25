@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  background-color: rgb(196, 186, 186);
+}
+
+.location-filter >.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  height: 30px;
+  background-color: #fff;
+}
+
+.content-chat~.ant-input{
+  font-family: "Ubuntu";
+  margin-top: 10px;
+}
+
+
+.ant-menu{
+  height:100vh;
+}

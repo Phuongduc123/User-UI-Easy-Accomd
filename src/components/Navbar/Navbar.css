@@ -1,0 +1,134 @@
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  margin-left: 3rem;
+  float: left;
+  margin-top: 0.75rem;
+}
+
+li {
+  float: left;
+}
+
+.option a {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: bold;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  text-decoration: none;
+}
+
+.option a:hover {
+  color: #1890ff;
+}
+
+.search-bar {
+  padding-top: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 15rem;
+}
+
+.active {
+  background-color: #4caf50;
+}
+.search {
+}
+
+.popover-elm:hover{
+  color:#1890ff;
+  
+}
+
+.signup-btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  background: #ffffff;
+  border: 3px solid #ffc200;
+  box-sizing: border-box;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.signup-btn:hover{
+  color: #1890ff;
+}
+
+.signin-btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  margin-top: 0.2rem;
+}
+.I {
+  width: 0px;
+  height: 23px;
+  top: 53px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.2rem;
+  border: 1px solid #000000;
+}
+
+.signin-signup{
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.sign{
+  margin-right: 3rem;
+  float: right;
+}
+
+
+@media screen and (max-width: 1000px) {
+  /* .nav-list a:not(:first-child) {display: none;} */
+  /* .signin-signup{display: none;} */
+  .option{display: none;}
+  .search-bar-x{display: none;}
+  .signin-signup{padding-bottom: 20px;}
+  .nav-list a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  /* .nav-list a:not(:first-child) {display: none;} */
+  /* .signin-signup{display: none;} */
+  /* .option{display: none;} */
+  .search-bar{display: none;}
+  .signin-signup{padding-bottom: 20px;}
+  .nav-list a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the nav-list.nav-list with JavaScript when the user clicks on the icon. This class makes the nav-list.nav-list look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .nav-list.responsive {position: relative;}
+  .nav-list.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-list.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

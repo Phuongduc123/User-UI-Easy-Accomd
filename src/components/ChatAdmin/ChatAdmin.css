@@ -1,0 +1,76 @@
+.Chat{
+    width:350px;
+}
+
+.host-name:hover{
+    color:red
+}
+
+.header-chat{
+    border-radius: 10px 10px 0px 0px;
+    background-color: grey;
+    width:350px;
+    text-align: center;
+    padding:5px;
+    color:white;
+    cursor: pointer;
+}
+
+.icon-chat{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.body-chat{
+    border:1px rgba(0,0,0,0.25) solid;
+    padding:10px;
+    background-color: white;
+}
+
+.zoom-in-chat{
+    position:absolute;
+    margin-left:320px;
+    color:white;
+    z-index:3;
+    margin-top:-55px;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.zoom-in-chat:hover{
+    color: rgb(201, 196, 196);
+}
+
+.content-chat{
+    height:300px;
+    background-color: white;
+    overflow: auto;
+}
+
+.content-chat::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.content-chat::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.content-chat::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.Message{
+    padding:5px 10px ;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-family: 'Ubuntu';
+    word-break: break-all;
+}

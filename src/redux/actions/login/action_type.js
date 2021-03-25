@@ -1,0 +1,5 @@
+export const POST_TO_LOGIN = "POST_TO_LOGIN";
+export const POST_TO_LOGIN_SUCCESS = "POST_TO_LOGIN_SUCCESS";
+export const CREATE_SOCKET = "CREATE_SOCKET";
+export const LOGOUT = "LOGOUT";
+export const POST_USER_LIST = "POST_USER_LIST";
